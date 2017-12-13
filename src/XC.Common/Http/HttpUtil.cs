@@ -97,8 +97,11 @@ namespace XC.Common.Http
             httpWebRequest.Referer = DefaultReferer;
             if (post)
             {
-                httpWebRequest.Method = "POST";
-                var data = DefaultEncoding.GetBytes(postData);
+
+	            var data = DefaultEncoding.GetBytes(postData);
+				httpWebRequest.Method = "POST";
+	            httpWebRequest.ContentType = "application/x-www-form-urlencoded;charset=utf-8";
+	            httpWebRequest.ContentLength = data.Length;
                 using (var stream = httpWebRequest.GetRequestStream())
                 {
                     stream.Write(data, 0, data.Length);
