@@ -22,7 +22,7 @@ namespace Zeta.Common.UnitTest
         }
 
 	    [Fact]
-	    public void XXTeaEncrypt()
+	    public void DoubleXTeaEncrypt()
 	    {
 		    byte[] key = Encoding.UTF8.GetBytes("abcdefg");
 		    byte[] data = Encoding.UTF8.GetBytes("I like dog and cat.");

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\XC.Common\Zeta.Common.csproj" />
+    <ProjectReference Include="..\..\src\Zeta.Common\Zeta.Common.csproj" />
   </ItemGroup>
 
 </Project>
