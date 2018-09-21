@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace XC.Common.DateTime
+namespace Zeta.Common.Utils
 {
-    public class DateTimeHelper
+    public static class DateTimeUtil
     {
         /// <summary>
         /// 获取时间戳 Unix时间戳格式 毫秒级 13位

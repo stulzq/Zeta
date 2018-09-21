@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace XC.Common.Http
+namespace Zeta.Common.Http
 {
     /// <summary>
     /// Simple Http Request Class

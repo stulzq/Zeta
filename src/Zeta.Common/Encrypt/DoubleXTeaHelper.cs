@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XC.Common.Encrypt
+namespace Zeta.Common.Encrypt
 {
 	/// <summary>
 	/// XTEA 跟 TEA 使用了相同的简单运算，但它采用了截然不同的顺序，为了阻止密钥表攻击，
@@ -8,7 +8,7 @@ namespace XC.Common.Encrypt
 	/// 不太正规的方式进行混合，但速度更慢了。
 	/// Copy from http://www.cnblogs.com/linzheng/archive/2011/09/14/2176767.html
 	/// </summary>
-	public class XXTeaHelper
+	public class DoubleXTeaHelper
 	{
 		/// <summary>
 		/// Encrypt

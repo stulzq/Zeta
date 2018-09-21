@@ -1,10 +1,9 @@
-using System;
 using System.Text;
-using XC.Common.Encrypt;
-using XC.Common.String;
 using Xunit;
+using Zeta.Common.Encrypt;
+using Zeta.Common.Extensions;
 
-namespace XC.Common.UnitTest
+namespace Zeta.Common.UnitTest
 {
 	
     public class TeaHelperUnitTest
@@ -27,8 +26,8 @@ namespace XC.Common.UnitTest
 	    {
 		    byte[] key = Encoding.UTF8.GetBytes("abcdefg");
 		    byte[] data = Encoding.UTF8.GetBytes("I like dog and cat.");
-		    var encryptData = XXTeaHelper.Encrypt(data, key);
-		    var decryptData = XXTeaHelper.Decrypt(encryptData, key);
+		    var encryptData = DoubleXTeaHelper.Encrypt(data, key);
+		    var decryptData = DoubleXTeaHelper.Decrypt(encryptData, key);
 
 		    string data1 = data.ToBase64String();
 		    string data2 = decryptData.ToBase64String();

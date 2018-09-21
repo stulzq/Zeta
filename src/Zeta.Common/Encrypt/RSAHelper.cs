@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace XC.Common.Encrypt
+namespace Zeta.Common.Encrypt
 {
 	/// <summary>
 	/// RSA加解密 使用OpenSSL的公钥加密/私钥解密

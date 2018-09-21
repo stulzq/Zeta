@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace XC.Common.String
+namespace Zeta.Common.Extensions
 {
 	/// <summary>
 	/// byte & byte array type's extension methods

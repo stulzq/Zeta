@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XC.Common.Encrypt
+namespace Zeta.Common.Encrypt
 {
 	/// <summary>
 	/// TEA（Tiny Encryption Algorithm）是一种小型的对称加密解密算法，支持128位密码，

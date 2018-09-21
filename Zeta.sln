@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XC.Common", "src\XC.Common\XC.Common.csproj", "{DAAB61CF-5585-42D3-866E-F9400C7F4404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeta.Common", "src\Zeta.Common\Zeta.Common.csproj", "{DAAB61CF-5585-42D3-866E-F9400C7F4404}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{5530761F-B955-41B2-B351-F0912968414F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D77F01AF-22C9-46A8-922D-669ACE6FAA8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XC.Common.UnitTest", "test\XC.Common.UnitTest\XC.Common.UnitTest.csproj", "{C3E645FC-4B9D-4243-AEF4-A92FF4C25A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeta.Common.UnitTest", "test\Zeta.Common.UnitTest\Zeta.Common.UnitTest.csproj", "{C3E645FC-4B9D-4243-AEF4-A92FF4C25A84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
